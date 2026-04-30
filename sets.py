@@ -28,5 +28,9 @@ print(setThree);
 setFour = setOne.intersection(setTwo) # combines common values & returns new
 print(setFour)
 
+print("-------exercise---------")
+values = {9, 9.0, 9.25}
+print(values)
+
 
 

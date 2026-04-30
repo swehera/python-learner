@@ -29,3 +29,12 @@ print(student.values()) # return all the values in dictionary
 student.update({"city": "Dhaka", "name": "Lutfa"}) # update and add new key value in old dictionary
 print(student)
 
+print("-------exercise---------")
+marks = {}
+
+physics = int(input("Enter the physics number: "))
+math = int(input("Enter the math number: "))
+english = int(input("Enter the english number: "))
+marks.update({"physics":physics, "math": math, "english": english})
+print(marks)
+
